@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} 
+
+body
+{
+    min-height: 100vh;
+}
+
+.btn{
+    padding: 5px 10px;
+    text-align: center;
+    color: rgb(210, 12, 12);
+    background: rgb(246, 243, 243);
+       
+}
+
+.btn:hover{
+    background: rgb(219, 209, 209);
+    color: rgb(97, 3, 111);
+    border-style: solid;
+    border-color: red;
+    box-sizing: border-box;     
+}
+.side-menu
+{
+    position: fixed;
+    top: 2px;
+    background-color: rgb(112, 106, 106)    ;
+    width: 38vh;
+    min-height: 100vh;
+    display: box;
+   /* // display: flex; */
+
+    flex-direction: column;
+}
+.side-menu .brand-name
+{
+    height: 10vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: honeydew;
+}
+
+.side-menu li{
+    
+    font-size: 20px;
+    padding: 10px 40px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    color: aliceblue;
+    /* justify-content: left; */
+    /* box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.8); */
+}
+.side-menu li:hover
+{
+    color: black;
+    background: white;
+    border-color: blueviolet;
+    border-bottom: black;
+    border-style: solid;
+    border-color: lime;
+    box-sizing: border-box;
+    display: flex;
+}
+.side-menu li img{
+    width: 20px;
+    height: 20px;
+}
+
+.container{
+    top: 2px;
+    position: absolute;
+    right: 0%;
+    /* width: 80vw; */
+    height: 100px;
+    background: #f1f1f1;
+}
+
+.container .header{
+    /* position: fixed; */
+    top: 2%; 
+    right: 2px;
+    width: 80vw;
+    height: 12vh;
+    background: rgb(214, 244, 244);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.container .header .nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+
+}
+
+.container .header .nav .user{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .header .nav .user img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center  ; */
+    justify-content: space-between;
+}
+
+.container .content{
+    right: 20;
+    /* left:4px; */
+    position: relative;
+    margin-top: 15vh;
+    min-height: 90vh;
+    background:white;  
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+}
+
+.container .content .cards
+{
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+    /* flex-wrap: wrap; */
+}
+
+.container .content .cards .Card{
+    width: 250px;
+    height: 150px;
+    background: #f1f1f1;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
+}
+.icon-case img{
+    position: relative;
+    height: 70px;
+    width: 70px;
+
+}
+.Card{
+    background-color: rgb(236, 213, 226);
+    height: fit-content;
+    padding: 50px;
+    width: 170px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    align-items: center;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.8);
+}
