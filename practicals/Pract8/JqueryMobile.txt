@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- index.html -->
+    <div data-role="page" id="home">
+        <div style="background-color: green;" data-role="header" class="heading">
+            <h1 style="color:white; font-size: 18px;text-align: left;">AMRUTVAHINI COLLEGE OF ENGINEERING, SANGAMNER
+            </h1>
+            <h4 style="color: white; font-size: 12px; letter-spacing: 1px; ">Approved by AICTE, Permanently Affiliated
+                to SPPU, Pune,<br>
+                4th Time NBA Accredited, NAAC 'A+' Grade, ISO 9001:2015 Certified <br>
+                'Best College Award' by SPPU, Pune for academic year 2020-21</h4>
+
+
+        </div>
+        <div data-role="navbar" data-grid="c">
+
+            <ul>
+                <li><a href="#home" class="ui-btn-active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#dept">Department</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+
+        </div><!-- /navbar -->
+        <div data-role="content">
+            <h3 style="color: green;"><u> Welcome To Amrutvahini College of Engineering</u></h3>
+            <p style="text-align: justify;">Amrutvahini College of Engineering (AVCOE), Sangamner
+                established in 1983 under the leadership of Hon. Late. Bhausaheb Thorat and progessing under the
+                guidance of Hon. Shri. Balasaheb Thorat, Revenue Minister,Government of Maharashtra and Hon. Dr.Sudhir
+                Tambe (MLC Nashik). It is spread over 15.6 acres of ample greenery, with three times accreditation by
+                NBA, New Delhi, Graded 'A+' by NACC Government of India and International Academic Accreditation lSO
+                9001:2015 by TUV SUD. It boasts state of art IT centre with 100 mbps Wi-Fi Internet Facility. It has a
+                huge library that accommodates 66,735 books,129 print journals and 275 e-journals.
+                It provides 100% placement assistance to its students through value added courses,foreign langauges
+                (Japanese , German) and Training. It is an Institute that has always worked for imparting excellence
+                driven engineering education that builds the future of Engineers and Entrepreneurs.
+            </p>
+            <div>
+                <h3 style="color: green;">VISION</h3>
+                <p>To create opportunities for rural students to become able engineers and technocrats through continual
+                    excellence in engineering education.</p>
+            </div>
+            <div>
+                <h3 style="color: green;">MISSION</h3>
+                <p>Our mission is to create self disciplined, physically fit, mentally robust and morally strong
+                    engineers
+                    and technocrats with high degree of integrity and sense of purpose who are capable to meet
+                    challenges of
+                    ever advancing technology for the benefit of mankind and nature.
+                    We, the management, the faculty and staff, therefore promise to strive hard and commit ourselves to
+                    achieve this objective through a continuous process of learning and appreciation of needs of time.
+                </p>
+            </div>
+        </div>
+
+
+        <div data-role="footer">
+            <h3>Quick Access</h3>
+            <center>
+                <a href="#home">Home</a> <br>
+                <a href="#about">About</a> <br>
+                <a href="#dept">Departments</a> <br>
+                <a href="#contact">Contact Us</a> <br>
+                <h6>All Rights are Reserved with AVCOE, Sangamner @2022-23</h6>
+            </center>
+
+        </div>
+
+    </div>
+    <!-- About.html -->
+    <div data-role="page" id="about">
+
+        <div style="background-color: green;" data-role="header" class="heading">
+            <h1 style="color:white; font-size: 18px;text-align: left;">AMRUTVAHINI COLLEGE OF ENGINEERING, SANGAMNER
+            </h1>
+            <h4 style="color: white; font-size: 12px; letter-spacing: 1px; ">Approved by AICTE, Permanently Affiliated
+                to SPPU, Pune,<br>
+                4th Time NBA Accredited, NAAC 'A+' Grade, ISO 9001:2015 Certified <br>
+                'Best College Award' by SPPU, Pune for academic year 2020-21</h4>
+
+
+        </div>
+        <div data-role="navbar" data-grid="c">
+
+            <ul>
+                <li><a href="#home" class="ui-btn-active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#dept">Department</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+
+            </ul>
+
+        </div>
+        <center>
+            <div class="row">
+                <img src="1.jpg" height="250px" width="40%">
+                <img src="2.jpg" height="250px" width="40%">
+
+            </div>
+            <br>
+            <div class="row">
+                <img src="3.jpg" height="250px" width="40%">
+                <img src="4.jpg" height="250px" width="40%">
+
+            </div>
+
+        </center>
+
+
+
+
+
+
+        <div data-role="footer">
+            <h3>Quick Access</h3>
+            <center>
+                <a href="#home">Home</a> <br>
+                <a href="#about">About</a> <br>
+                <a href="#dept">Departments</a> <br>
+                <a href="#contact">Contact Us</a> <br>
+                <h6>All Rights are Reserved with AVCOE, Sangamner @2022-23</h6>
+            </center>
+
+        </div>
+    </div>
+
+    <!-- Department.html -->
+
+
+    <div data-role="page" id="dept">
+
+        <div style="background-color: green;" data-role="header" class="heading">
+            <h1 style="color:white; font-size: 18px;text-align: left;">AMRUTVAHINI COLLEGE OF ENGINEERING, SANGAMNER
+            </h1>
+            <h4 style="color: white; font-size: 12px; letter-spacing: 1px; ">Approved by AICTE, Permanently Affiliated
+                to SPPU, Pune,<br>
+                4th Time NBA Accredited, NAAC 'A+' Grade, ISO 9001:2015 Certified <br>
+                'Best College Award' by SPPU, Pune for academic year 2020-21</h4>
+
+
+        </div>
+        <div data-role="navbar" data-grid="c">
+
+            <ul>
+                <li><a href="#home" class="ui-btn-active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#dept">Department</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+
+            </ul>
+
+        </div>
+
+        <div data-role="content">
+            <ul data-role="listview">
+                <li><a href="#">Computer</a></li>
+                <li><a href="#">Civil</a></li>
+                <li><a href="#">Automation and Robotics</a></li>
+                <li><a href="#">Electronics and Telecommunication</a></li>
+                <li><a href="#">Electronics and Computer</a></li>
+                <li><a href="#">Electrical</a></li>
+                <li><a href="#">Information Technology</a></li>
+                <li><a href="#">Mechanical</a></li>
+            </ul>
+        </div>
+
+
+        <div data-role="footer">
+            <h3>Quick Access</h3>
+            <center>
+                <a href="#home">Home</a> <br>
+                <a href="#about">About</a> <br>
+                <a href="#dept">Departments</a> <br>
+                <a href="#contact">Contact Us</a> <br>
+                <h6>All Rights are Reserved with AVCOE, Sangamner @2022-23</h6>
+            </center>
+
+        </div>
+    </div>
+
+    <!-- contact.html -->
+
+    <div data-role="page" id="contact">
+
+        <div style="background-color: green;" data-role="header" class="heading">
+            <h1 style="color:white; font-size: 18px;text-align: left;">AMRUTVAHINI COLLEGE OF ENGINEERING, SANGAMNER
+            </h1>
+            <h4 style="color: white; font-size: 12px; letter-spacing: 1px; ">Approved by AICTE, Permanently Affiliated
+                to SPPU, Pune,<br>
+                4th Time NBA Accredited, NAAC 'A+' Grade, ISO 9001:2015 Certified <br>
+                'Best College Award' by SPPU, Pune for academic year 2020-21</h4>
+
+
+        </div>
+
+        <div data-role="navbar" data-grid="c">
+
+            <ul>
+                <li><a href="#home" class="ui-btn-active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#dept">Department</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+
+            </ul>
+
+        </div>
+
+        <div data-role="content">
+            <form action="">
+                <h3>Registration Form</h3> <br>
+                <label for="text-basic">Name</label>
+                <input type="text" name="text-basic" id="text-basic" value="">
+
+                <label for="text-basic">Email</label>
+                <input type="email" name="text-basic" id="text-basic" value="">
+
+                <label for="text-basic">Mobile</label>
+                <input type="text" name="text-basic" id="text-basic" value="">
+
+                <label for="text-basic">Password</label>
+                <input type="password" name="text-basic" id="text-basic" value="">
+
+                <label for="text-basic">Address</label>
+                <input type="text" name="text-basic" id="text-basic" value="">
+
+                <button class="ui-btn-active">Submit</button>
+            </form>
+
+        </div>
+
+
+        <div data-role="footer">
+            <h3>Quick Access</h3>
+            <center>
+                <a href="#home">Home</a> <br>
+                <a href="#about">About</a> <br>
+                <a href="#dept">Departments</a> <br>
+                <a href="#contact">Contact Us</a> <br>
+                <h6>All Rights are Reserved with AVCOE, Sangamner @2022-23</h6>
+            </center>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
